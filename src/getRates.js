@@ -8,7 +8,7 @@ export async function getRates() {
       jsonifiedResponse = false;
     }
     return jsonifiedResponse;
-    } catch(error) {
-      return false;
-    }
+  } catch(error) {
+    return false;
+  }
 }
