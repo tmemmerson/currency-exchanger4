@@ -2,6 +2,8 @@
   <img width="250" height="250" src="https://coding-assets.s3-us-west-2.amazonaws.com/img/stickerslug-logo3.png">
 </p>
 
+<br>
+
 # _Currency Exchanger_
 
 #### _swap your colored paper for another countries' colored paper_	
@@ -46,6 +48,8 @@ _this app will utilize an api to dynamically import exchange rate data for our u
 
 ![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone-github2.gif "Cloning from Github within VSCode")
 
+<br>
+
 ## **PROTECTING YOUR DATA**
 
 * Step 0: go to https://www.exchangerate-api.com/ and sign up for an account to get a free API key
@@ -64,20 +68,29 @@ _this app will utilize an api to dynamically import exchange rate data for our u
 
 * Step 6: enjoy
 
+<br>
+
 ## **Known Bugs**
 
 _**No Known Bugs:**7/3/2020_
+
+<br>
 
 ## **Support and contact details**
 
 _Questions, comments and concerns can be directed to the author(s) [Tristan Emmerson](tristan@stickerslug.com)_
 
+<br>
+
 ## **Technologies Used**
 
-_**This was written in:** [Visual Studio Code](https://code.visualstudio.com/) (v1.45)_
+_**Written in:** [Visual Studio Code](https://code.visualstudio.com/)_
 
-_**Image work:** [Adobe Photoshop](https://www.adobe.com/products/photoshop.html/) (v2020)_
+_**Image work:** [Adobe Photoshop](https://www.adobe.com/products/photoshop.html/)_
 
+_**API utilized:** [Exchange Rate API](https://www.exchangerate-api.com/)_
+
+<br>
 
 ## **License**
 ![alt text][logo]
