@@ -6,24 +6,21 @@
   <body>
     <div class="container">
       <h1>Secure the bag</h1>
-    <div class="form-group">
-      <label for="selectedCurrency">Exchange to which currency?</label>
-      <select name="selectedCurrency" id="selectedCurrency">
-        <option value='BGN'>BGN</option>
-        <option value='EUR'>EUR</option>
-        <option value='CAD'>CAD</option>
-        <option value='GBP'>GBP</option>
-        <option value='AUD'>AUD</option>
-      </select>
+      <div class="form-group">
+        <label for="selectedCurrency">Exchange to which currency?</label>
+        <select name="selectedCurrency" id="selectedCurrency">
+          <option value='BGN'>BGN</option>
+          <option value='EUR'>EUR</option>
+          <option value='CAD'>CAD</option>
+          <option value='GBP'>GBP</option>
+          <option value='AUD'>AUD</option>
+        </select>
+      </div>
+      <input id="amount" type="text" placeholder="amount in USD">
+      <button class="btn-info" id="submitAmount">Exchange</button>
+      <div id="amountPrint"></div>
+      <div id="exchangeValue"></div>
+      <div id="finalPrintout"></div>
     </div>
-
-    <input id="amount" type="text" placeholder="amount in USD">
-    <button class="btn-info" id="submitAmount">Exchange</button>
-    <div id="amountPrint"></div>
-    <div id="exchangeValue"></div>
-    <div id="finalPrintout"></div>
-    
-
-  </div>
   </body>
 </html>
