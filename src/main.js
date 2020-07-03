@@ -3,7 +3,6 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 import { getRates } from './getRates.js';
-
 async function parseRatesInfo(newCurrency) {
   const jsonifiedResponse = await getRates(newCurrency);
   if (jsonifiedResponse === false) {
@@ -16,7 +15,6 @@ async function parseRatesInfo(newCurrency) {
     $("#amountPrint").text(`Amount to exchange: $${amount} USD`);
   }
 }
-
 $(document).ready(function() {
   $("#submitAmount").click(function() {
     let newCurrency = $("#selectedCurrency").val();
