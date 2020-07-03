@@ -11,7 +11,9 @@ async function parseRatesInfo(newCurrency) {
   } else {
     $("#exchangeValue").text(`Exchange rate: ${jsonifiedResponse.conversion_rates[newCurrency]}`);
     const amount=$("#amount").val();
-    $("#finalPrintout").text(`Converted amount: $${jsonifiedResponse.conversion_rates[newCurrency]*amount}`);
+    const selectedCurrency=$("#selectedCurrency").val();
+    $("#finalPrintout").text(`Converted amount: $${jsonifiedResponse.conversion_rates[newCurrency]*amount} ${selectedCurrency}`);
+    $("#amountPrint").text(`Amount to exchange: $${amount} USD`);
   }
 }
 
