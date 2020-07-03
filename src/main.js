@@ -16,7 +16,6 @@ async function parseRatesInfo(newCurrency) {
 $(document).ready(function() {
   $("#submitAmount").click(function() {
     let newCurrency = $("#selectedCurrency").val();
-    $("#selectedCurrency").val("");
     parseRatesInfo(newCurrency); 
   });
 });  
