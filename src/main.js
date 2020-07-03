@@ -7,7 +7,7 @@ import { getRates } from './getRates.js';
 async function parseRatesInfo(newCurrency) {
   const jsonifiedResponse = await getRates(newCurrency);
   if (jsonifiedResponse === false) {
-    $("#exchangeValue").text("I'm sorry, something went wrong with your request");
+    $("#exchangeValue").text("I'm sorry, something went wrong");
   } else {
     $("#exchangeValue").text(`Exchange Value: ${jsonifiedResponse}`);
   }
