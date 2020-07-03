@@ -9,15 +9,13 @@ async function parseRatesInfo(newCurrency) {
   if (jsonifiedResponse === false) {
     $("#exchangeValue").text("I'm sorry, something went wrong");
   } else {
-    $("#exchangeValue").text(`Exchange Value: ${jsonifiedResponse}`);
+    $("#exchangeValue").text(`Exchange Value: ${jsonifiedResponse.conversion_rates.GBP}`);
   }
 }
 
 $(document).ready(function() {
-  $("#conversionResults").click(function() {
-
+  $("#submitAmount").click(function() {
     let newCurrency = $("#selectedCurrency").val();
-
     $("#selectedCurrency").val("");
     parseRatesInfo(newCurrency); 
   });

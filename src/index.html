@@ -5,12 +5,7 @@
   </head>
   <body>
     <div class="container">
-
       <h1>Secure the bag</h1>
-      <input id="amount" type="text" placeholder="amount in USD">
-      <button class="btn-info" id="conversionResults">Exchange</button>
-    
-    
     <div class="form-group">
       <label for="selectedCurrency">Exchange to which currency?</label>
       <select name="selectedCurrency" id="selectedCurrency">
@@ -21,7 +16,10 @@
         <option value='AUD'>AUD</option>
       </select>
     </div>
-
+    
+    <input id="amount" type="text" placeholder="amount in USD">
+    <button class="btn-info" id="submitAmount">Exchange</button>
+  
     <div id="exchangeValue"></div>
 
   </div>
