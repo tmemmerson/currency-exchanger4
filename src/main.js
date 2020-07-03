@@ -9,7 +9,8 @@ async function parseRatesInfo(newCurrency) {
   if (jsonifiedResponse === false) {
     $("#exchangeValue").text("I'm sorry, something went wrong");
   } else {
-    $("#exchangeValue").text(`Exchange Value: ${jsonifiedResponse.conversion_rates.GBP}`);
+    $("#exchangeValue").text(`Exchange Value: ${jsonifiedResponse.conversion_rates[newCurrency]}`);
+    
   }
 }
 
