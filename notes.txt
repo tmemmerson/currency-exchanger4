@@ -1,0 +1,12 @@
+type in amount in USD
+select a currency to exchange (5 options min.)
+make api call
+display conversion of input USD
+
+update readme to include better walkthrough
+
+| Spec 	| Input 	| Output 	|
+|-	|-	|-	|
+| accept user input of USD amount 	| 500 	| $500.00 	|
+| offer user 5 exchange options 	| EUR/JPY/CHF/GBP/AUD 	|  	|
+| make conversion using api call 	| $500 USD => GBP 	| $401.22 GBP 	|
