@@ -14,7 +14,11 @@ _this app will utilize an api to dynamically import exchange rate data for our u
 
 ## **Specifications**
 
-**EDIT** $IMPORT TABLE HERE$
+| Spec 	| Input 	| Output 	|
+|-	|-	|-	|
+| accept user input of USD amount 	| 500 	| $500.00 	|
+| offer user 5 exchange options 	| EUR/JPY/CHF/GBP/AUD 	|  	|
+| make conversion using api call 	| $500 USD => GBP 	| $401.22 GBP 	|
 
 ## **Setup/Installation Requirements**
 
