@@ -2,15 +2,15 @@
 
  [**tmemmerson**](https://github.com/tmemmerson)
  
-**EDIT** # _$TITLE$_
+# _Currency Exchanger_
 
-**EDIT** #### _$TAGLINE$_	
+#### _swap your colored paper for another countries' colored paper_	
 
 #### By _**Tristan Emmerson**_
 
 ## **Description**
 
-**EDIT** _$DESCRIPTION-SECTION$_
+_this app will utilize an api to dynamically import exchange rate data for our user_
 
 ## **Specifications**
 
@@ -20,9 +20,9 @@
 
 *  _Recommended browser for everything in life. [Google Chrome](https://www.google.com/chrome/)_.
 
-**EDIT** *  _Github [repository](https://github.com/tmemmerson/$REPO$.git)_
+*  _Github [repository](https://github.com/tmemmerson/currency-exchanger4.git)_
 
-**EDIT** *  _Live [demo](https://tmemmerson.github.io/$REPO$/)_
+*  _Live [demo](https://tmemmerson.github.io/currency-exchanger4/)_
 
 *  **Windows/Mac Users:** If modifying for personal use, dl Git [here](https://git-scm.com/downloads/) (v2.62.2)
 
@@ -45,7 +45,7 @@
 
 ## **Known Bugs**
 
-**EDIT** _**No Known Bugs:** _$DATE$_
+_**No Known Bugs:** _7/3/2020_
 
 ## **Support and contact details**
 
@@ -56,8 +56,6 @@ _Questions, comments and concerns can be directed to the author(s) [Tristan Emme
 _**This was written in:** [Visual Studio Code](https://code.visualstudio.com/) (v1.45)_
 
 _**Image work:** [Adobe Photoshop](https://www.adobe.com/products/photoshop.html/) (v2020)_
-
-**EDIT** $ADDT'L TECHNOLOGIES$
 
 ## **License**
 ![alt text][logo]
